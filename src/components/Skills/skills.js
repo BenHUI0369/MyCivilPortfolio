@@ -5,38 +5,63 @@ import WebDesign from '../../assets/website-design.png';
 import AppDesign from '../../assets/app-design.png';
 import SoftwareDev from '../../assets/software.png';
 
+import CADDrawing from '../../assets/civil/cad-drawing.png';
+import Architect from '../../assets/civil/architect.png';
+import CivilDoc from '../../assets/civil/civil-document.png';
+import Supervision from '../../assets/civil/supervision.png';
+import HelpDesk from '../../assets/civil/help-desk.png';
+import TroubleShooting from '../../assets/civil/troubleshooting.png';
+
 export const Skills = () => {
   return (
     <section id='skills'>
       <span className="skillTitle">What I do</span>
-      <span className="skillDesc">I am a recent graduate student with a passion on web development to create visually appealing and user-friendly website. I also have a strong understanding of SQL and backend API. I am proficient in HTML, CSS, and JavaScript together with design software such as Adobe Illustrator and Photoshop for the frontend UI design.</span>
+      <span className="skillDesc">As an experienced Civil Engineering/CAD Technician, 
+      my career is marked by participation in landmark projects, including the Hong Kong Boundary Crossing Facilities and 
+      various significant Sewage Pumping Stations. My rich background encompasses both the theoretical foundations and 
+      practical applications of civil engineering and CAD technologies, enabling me to deliver a comprehensive suite of services to 
+      my clients. My areas of expertise include:</span>
       <div className="skillBars">
         <div className="skillBar">
-          <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+          <img src={CADDrawing} alt="CADDrawing" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>UI/UX Design</h2>
-            <p>Crafting intuitive interfaces and exceptional user experiences through research, wireframing, and visual design.</p>
+            <h2>CAD Drawing</h2>
+            <p>Creating precise, detailed CAD drawings to support engineering and architectural projects.</p>
           </div>
         </div>
         <div className="skillBar">
-          <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
+          <img src={Architect} alt="Architect" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>Web Design</h2>
-            <p>Designing responsive, visually appealing websites with a focus on usability, performance, and modern aesthetics.</p>
+            <h2>Civil Infrastructure Design</h2>
+            <p>Designing sustainable, efficient civil infrastructure through innovative planning and engineering.</p>
           </div>
         </div>
         <div className="skillBar">
-          <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
+          <img src={CivilDoc} alt="CivilDoc" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>App Design</h2>
-            <p>Developing engaging, user-friendly mobile apps with a focus on intuitive navigation and aesthetic appeal.</p>
+            <h2>Documentation</h2>
+            <p>Producing comprehensive civil project documentation, ensuring accuracy and compliance.</p>
           </div>
         </div>
         <div className="skillBar">
-          <img src={SoftwareDev} alt="AppDesign" className="skillBarImg" />
+          <img src={Supervision} alt="Supervision" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>Software Development</h2>
-            <p>Building robust, scalable software solutions with a focus on innovation, efficiency, and custom functionality.</p>
+            <h2>Site Supervision and Quality Control</h2>
+            <p>Overseeing construction sites to ensure quality, safety, and adherence to timelines.</p>
+          </div>
+        </div>
+        <div className="skillBar">
+          <img src={HelpDesk} alt="HelpDesk" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>Computer Help Desk</h2>
+            <p>Providing technical support and solutions for computer and software-related issues.</p>
+          </div>
+        </div>
+        <div className="skillBar">
+          <img src={TroubleShooting} alt="TroubleShooting" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>TroubleShooting</h2>
+            <p>Identifying and resolving technical problems swiftly to minimize downtime and improve efficiency.</p>
           </div>
         </div>
       </div>

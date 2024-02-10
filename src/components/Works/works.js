@@ -10,8 +10,8 @@ import PortfolioImg6 from '../../assets/portfolio-6.png';
 export const Works = () => {
   return (
     <section id="works">
-        <h2 className="worksTitle">My Portfolio</h2>
-        <span className="worksDesc">I am excited to bring my skills and experience to help the clients to achieve their businesses goals and create a strong online presence.</span>
+        <h2 className="worksTitle">Involved Project</h2>
+        <span className="worksDesc">I am excited to bring my skills and experience to help the company to achieve their businesses goals and create a high quality services.</span>
         <div className="worksImgs">
             <img src={PortfolioImg1} alt="PortfolioImg1" className="worksImg" />
             <img src={PortfolioImg2} alt="PortfolioImg2" className="worksImg" />

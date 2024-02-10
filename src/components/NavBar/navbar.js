@@ -47,15 +47,7 @@ export const Navbar = () => {
             duration={500}
             className="desktopMenuListItem"
             >Clients</Link>
-            <Link  
-            activeClass='active'
-            to='clients'
-            spy={true}
-            smooth={true}
-            offset={-90}
-            duration={500}
-            className="desktopMenuListItem"
-            >Resume</Link>
+            <Link className="desktopMenuListItem">Resume</Link>
         </div>
         <button className="desktopMenuBtn" onClick={() => {
           document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
