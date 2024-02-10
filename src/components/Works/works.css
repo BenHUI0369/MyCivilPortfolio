@@ -37,6 +37,10 @@
     margin: 0.5rem;
 }
 
+.imgTitle {
+    position: absolute;
+}
+
 .worksBtn {
     padding: 0.5rem 2.5rem;
     border: none;

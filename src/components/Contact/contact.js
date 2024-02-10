@@ -34,7 +34,7 @@ export const Contact = () => {
   return (
     <section id="contactPage">
         <div id="clients">
-            <h1 className="contactPageTitle">My Clients</h1>
+            <h1 className="contactPageTitle">Previous Company</h1>
             <p className="clientDesc">
                 I have had the opportunity to work with different group of companies and individual. Some of them I have worked with includes
             </p>
